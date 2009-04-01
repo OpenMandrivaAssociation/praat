@@ -18,7 +18,7 @@ BuildRequires:	libice-devel
 BuildRequires:	libxext-devel
 BuildRequires:	libalsa-devel
 BuildRequires:	libxmu-devel
-BuildRequires:	liblesstif-devel
+BuildRequires:	lesstif-devel
 Source0:	%{name}5103_sources.tar.gz
 Source1:	praat.png
 Source2:	praat_mini.png
