@@ -4,7 +4,7 @@
 
 Name:		%{name}
 Summary:	Praat: doing phonetics, speech analysis and synthesis by computer
-Version:	%{ver}
+Version:	5.1.5
 Release:	%{rel}
 License: 	GPLv2
 Group:		Sciences/Other
