@@ -1,15 +1,11 @@
-%define name		praat
-%define ver		5.1.3
-%define rel		%mkrel 1
-
-Name:		%{name}
-Summary:	Praat: doing phonetics, speech analysis and synthesis by computer
+%define srcver  %(echo %{version} | sed -e 's/\\.\\([0-9]\\)$/.0\\1/' -e 's/\\.//g')
+Name:		praat
+Summary:	Program from honetics, speech analysis and synthesis
 Version:	5.1.5
-Release:	%{rel}
+Release:	%mkrel 2
 License: 	GPLv2
 Group:		Sciences/Other
 Url:		http://www.fon.hum.uva.nl/praat/
-
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{revision}-buildroot
 BuildRequires:	libxp-devel
 BuildRequires:	libxt-devel
@@ -19,7 +15,7 @@ BuildRequires:	libxext-devel
 BuildRequires:	libalsa-devel
 BuildRequires:	libxmu-devel
 BuildRequires:	lesstif-devel
-Source0:	%{name}5103_sources.tar.gz
+Source0:	http://www.fon.hum.uva.nl/praat/praat%{srcver}_sources.tar.gz
 Source1:	praat.png
 Source2:	praat_mini.png
 Source3:	praat_large.png
@@ -34,7 +30,7 @@ segmentation, labelling using the phonetic alphabet, and computation of
 statistics.
 
 %prep
-%setup -q -n sources_5103
+%setup -q -n sources_%{srcver}
 
 %build
 ln -fs makefiles/makefile.defs.linux.dynamic makefile.defs
