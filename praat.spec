@@ -1,8 +1,8 @@
 %define srcver  %(echo %{version} | sed -e 's/\\.\\([0-9]\\)$/.0\\1/' -e 's/\\.//g')
 Name:		praat
 Summary:	Program from honetics, speech analysis and synthesis
-Version:	5.1.5
-Release:	%mkrel 2
+Version:	5.1.7
+Release:	%mkrel 1
 License: 	GPLv2
 Group:		Sciences/Other
 Url:		http://www.fon.hum.uva.nl/praat/
