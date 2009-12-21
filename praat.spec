@@ -1,7 +1,7 @@
 %define srcver  %(echo %{version} | sed -e 's/\\.\\([0-9]\\)$/.0\\1/' -e 's/\\.//g')
 Name:		praat
 Summary:	Praat: doing phonetics, speech analysis and synthesis by computer
-Version:	5.1.15
+Version:	5.1.22
 Release:	%mkrel 1
 License: 	GPLv2
 Group:		Sciences/Other
