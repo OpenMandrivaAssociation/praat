@@ -1,7 +1,7 @@
 %define srcver  %(echo %{version} | sed -e 's/\\.\\([0-9]\\)$/.0\\1/' -e 's/\\.//g')
 Name:		praat
 Summary:	Praat: doing phonetics, speech analysis and synthesis by computer
-Version:	5.1.25
+Version:	5.1.29
 Release:	%mkrel 1
 License: 	GPLv2
 Group:		Sciences/Other
@@ -15,6 +15,8 @@ BuildRequires:	libxext-devel
 BuildRequires:	libalsa-devel
 BuildRequires:	libxmu-devel
 BuildRequires:	lesstif-devel
+BuildRequires:	gtk2-devel
+BuildRequires:	cairo-devel
 Source0:	http://www.fon.hum.uva.nl/praat/praat%{srcver}_sources.tar.gz
 Source1:	praat.png
 Source2:	praat_mini.png
@@ -33,7 +35,7 @@ statistics.
 %setup -q -n sources_%{srcver}
 
 %build
-ln -fs makefiles/makefile.defs.linux.dynamic makefile.defs
+ln -fs makefiles/makefile.defs.linux.gtk makefile.defs
 %make
 
 %clean
