@@ -2,7 +2,7 @@
 Name:		praat
 Summary:	Praat: doing phonetics, speech analysis and synthesis by computer
 Version:	5.1.29
-Release:	%mkrel 1
+Release:	%mkrel 2
 License: 	GPLv2
 Group:		Sciences/Other
 Url:		http://www.fon.hum.uva.nl/praat/
