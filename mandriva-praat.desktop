@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Praat speech analyzer
+GenericName=Speech analyzer
+Comment=Praat: doing phonetics by computer
+Exec=praat
+Icon=praat
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Motif;Science;Languages;

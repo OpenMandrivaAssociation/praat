@@ -63,3 +63,56 @@ cp -vf %{SOURCE4} %{buildroot}/%{_datadir}/applications/
 %{_datadir}/icons/*
 %{_datadir}/applications/*.desktop
 
+
+
+%changelog
+* Wed Mar 16 2011 Stéphane Téletchéa <steletch@mandriva.org> 5.2.17-1mdv2011.0
++ Revision: 645380
+- update to new version 5.2.17
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 5.1.29-2mdv2011.0
++ Revision: 614609
+- the mass rebuild of 2010.1 packages
+
+* Thu Mar 11 2010 Caio Begotti <caio1982@mandriva.org> 5.1.29-1mdv2010.1
++ Revision: 518189
+- new upstream version (changes from the standard lesstif/motif toolkit to gtk and cairo)
+
+* Thu Jan 21 2010 Frederik Himpe <fhimpe@mandriva.org> 5.1.25-1mdv2010.1
++ Revision: 494656
+- update to new version 5.1.25
+
+* Mon Dec 21 2009 Caio Begotti <caio1982@mandriva.org> 5.1.22-1mdv2010.1
++ Revision: 480905
+- new upstream version
+
+* Wed Sep 16 2009 Caio Begotti <caio1982@mandriva.org> 5.1.15-1mdv2010.0
++ Revision: 443548
+- new upstream version, fixes the hanging issue
+- fix the categories used for praat
+- fix the summary, it was not making much sense
+
+* Thu May 21 2009 Frederik Himpe <fhimpe@mandriva.org> 5.1.7-1mdv2010.0
++ Revision: 378427
+- update to new version 5.1.7
+
+* Sun May 10 2009 Frederik Himpe <fhimpe@mandriva.org> 5.1.5-2mdv2010.0
++ Revision: 374049
+- Really update to 5.1.5
+- Add sed hack to convert version string in source version string with
+  leading zero: should make mdvsys update work as expected
+- Improve summary
+
+* Sun May 10 2009 Frederik Himpe <fhimpe@mandriva.org> 5.1.5-1mdv2010.0
++ Revision: 374037
+- update to new version 5.1.5
+
+* Wed Apr 01 2009 Caio Begotti <caio1982@mandriva.org> 5.1.3-1mdv2009.1
++ Revision: 363330
+- wrong package name dependency
+- fix the menu entry, it's more a scientific app rather an education utility
+- import praat
+
+
+* Wed Apr 01 2009 Caio Begotti <caio@mandriva.com> 5.1.3-1mdv2009.1
+- First version, initial import

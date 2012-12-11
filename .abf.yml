@@ -1,6 +1,2 @@
 sources:
-  "mandriva-praat.desktop:"	545a6cb0362ab1fc58f6a313ebaaafc32fe2a805
-  "praat5217_sources.tar.gz:"	9be2394fd652b9e452db41f8360eb7df148c726f
-  "praat_large.png:"	9661acff37ee6e8c310531d4dd1f7946bc1de22a
-  "praat_mini.png:"	dd723f1f78c163cf10a2b7f8231eccdf93154d4f
-  "praat.png:"	cdf19fe6bf8c943c373900b745122a13e353e0b1
+  "praat5217_sources.tar.gz": 9be2394fd652b9e452db41f8360eb7df148c726f
