@@ -14,7 +14,7 @@ BuildRequires:	libxext-devel
 BuildRequires:	libalsa-devel
 BuildRequires:	libxmu-devel
 BuildRequires:	lesstif-devel
-BuildRequires:	gtk2-devel
+BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	cairo-devel
 Source0:	http://www.fon.hum.uva.nl/praat/praat%{srcver}_sources.tar.gz
 Source1:	praat.png
