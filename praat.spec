@@ -1,12 +1,11 @@
 %define srcver  %(echo %{version} | sed -e 's/\\.\\([0-9]\\)$/.0\\1/' -e 's/\\.//g')
 Name:		praat
-Summary:	: doing phonetics, speech analysis and synthesis by computer
+Summary:	Doing phonetics, speech analysis and synthesis by computer
 Version:	5.2.17
-Release:	%mkrel 1
+Release:	2
 License: 	GPLv2
 Group:		Sciences/Other
 Url:		http://www.fon.hum.uva.nl/praat/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{revision}-buildroot
 BuildRequires:	libxp-devel
 BuildRequires:	libxt-devel
 BuildRequires:	libsm-devel
@@ -39,7 +38,6 @@ ln -fs makefiles/makefile.defs.linux.gtk makefile.defs
 %make
 
 %clean
-rm -rf %{buildroot}
 
 %install
 mkdir -p %{buildroot}/%{_bindir}
