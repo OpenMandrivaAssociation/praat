@@ -5,7 +5,7 @@ Version:	5.2.17
 Release:	3
 License: 	GPLv2
 Group:		Sciences/Other
-Url:		http://www.fon.hum.uva.nl/praat/
+Url:		https://www.fon.hum.uva.nl/praat/
 BuildRequires:	libxp-devel
 BuildRequires:	libxt-devel
 BuildRequires:	libsm-devel
