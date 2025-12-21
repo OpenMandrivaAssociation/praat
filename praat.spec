@@ -6,6 +6,7 @@ Release:	3
 License: 	GPLv2
 Group:		Sciences/Other
 Url:		https://www.fon.hum.uva.nl/praat/
+BuildRequires:	make
 BuildRequires:	libxp-devel
 BuildRequires:	libxt-devel
 BuildRequires:	libsm-devel
